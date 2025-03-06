@@ -3,7 +3,6 @@ import { useDispatch } from 'react-redux';
 import { addItemToCart } from './CartSlice';
 import './ProductList.css'; 
 
-
 const ProductList = () => {
     const dispatch = useDispatch();
     const [disabledProducts, setDisabledProducts] = useState([]);
